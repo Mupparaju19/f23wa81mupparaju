@@ -15,7 +15,7 @@ router.get('/', function(req, res, next) {
     router.post(log = Math.log(m));
     router.post(log10 = Math.log10(m));
     
-    res.send(`imul applied to ${m} is ${imul} log applied to ${m} is ${log} log10 applied to ${m} is ${log10}`);
+    res.send(`log applied to ${m} is ${log} log10 applied to ${m} is ${log10}`);
   
 });
 
